@@ -1,0 +1,1 @@
+Perbedaan antara Continuous Delivery dan Continuous Deployment adalah pada penerapannya. Dalam Continuous Delivery, tujuannya adalah membuat SDLC secara otomatis mencapai lingkungan terakhir sebelum produksi sehingga selalu siap untuk diterapkan ke produksi secara otomatis. Sementara itu, untuk Continuous Deployment, benar-benar menerapkannya ke dalam produksi. 

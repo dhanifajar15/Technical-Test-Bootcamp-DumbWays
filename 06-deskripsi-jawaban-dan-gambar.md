@@ -1,0 +1,5 @@
+Definisi Reverse Proxy :  
+Reverse proxy adalah proxy server yang digunakan untuk mendukung keamanan dan kinerja pertukaran data agar dapat berjalan normal. Reverse Proxy bertindak sebagai penghubung antara host (client) dan server. Reverse Proxy menerima permintaan klien dan meneruskannya ke server lain. Akhirnya, ia meneruskan respons server ke client seolah-olah berasal dari proxy server itu sendiri. 
+
+Cara Kerja Reverse Proxy :  
+Reverse proxy berjalan pada port 80 untuk melayani permintaan Http. Pada port 80, reverse proxy tidak akan menggantikan fungsi server Web, tetapi akan terus mengirim permintaan Http ke server Web untuk diproses. Ketika web server selesai memproses permintaan, web server akan kembali ke reverse proxy. Sebelum reverse proxy mengirim HTTP request sebagai respons (HTTP respons) kembali ke client, proxy balik menyimpan respons HTTP ke media penyimpanan sekunder. Oleh karena itu, jika  HTTP request yang sama dikembalikan, reverse proxy akan langsung mendapatkan respons HTTP tanpa meneruskan  HTTP request ke Web server.
